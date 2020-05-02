@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="Darkly.css">
+  <link rel="stylesheet" href="stycle.css">
+  <title>Kevin's League Profile</title>
+</head>
+
+<body>
+
+  <header class="container-fluid nav-cstm">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-cstm w100vw bbb">
+          <h3 class=" mt-1 text-black">LoL Portfolio</h3>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-black" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-black" href="#roles">Roles</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-black" href="#ranked">Ranked</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container-fluid mt-5">
+    <div class="row r1-bg">
+      <div class="col-4 bg-dark m-5">
+        <form class="text-light">
+          <div class="form-group">
+            <label for="formName">Your Name</label>
+            <input type="name" class="form-control" id="formName" placeholder="ie. John Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="formIGN">Summoner Name</label>
+            <input type="name" class="form-control" id="formIGN" placeholder="Summoner Name" required>
+          </div>
+          <div class="form-group">
+            <label for="rankSelect">Solo/Duo rank</label>
+            <select class="form-control" id="rankSelect" required>
+              <option required disabled selected>Select</option>
+              <option>Iron</option>
+              <option>Bronze</option>
+              <option>Silver</option>
+              <option>Gold</option>
+              <option>Platinum</option>
+              <option>Diamond</option>
+              <option>Master</option>
+              <option>Grandmaster</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mainRole">Main Role</label>
+            <select class="form-control" id="mainRole" required>
+              <option selected disabled>Select</option>
+              <option>Top</option>
+              <option>Jungle</option>
+              <option>Mid</option>
+              <option>Adc</option>
+              <option>Support</option>
+              <option>Any</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="offRole">Off Role</label>
+            <select required class="form-control" id="offRole">
+              <option selected disabled>Select</option>
+              <option>Top</option>
+              <option>Jungle</option>
+              <option>Mid</option>
+              <option>Adc</option>
+              <option>Support</option>
+              <option>Any</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="userInput">Describe your playstyle, best champions and any time spent on competitive
+              teams.</label>
+            <textarea class="form-control" id="userInput" rows="3" required></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="col-6 text-light text-shadow sm-pd-l md-pd-t text-shadow">
+        <h2 class="mr-30">LEAGUE OF LEGENDS</h2>
+        <p class="mr-59">Epicweef (aka Kevin Lane)</p>
+      </div>
+    </div>
+    <div id="roles" class="row bg-primary">
+      <div class="col-6 p-5 text-center">
+        <h2>I'm a mid lane main</h2>
+        <h2>I can play ADC, Support or Jungle as my off-role, but I'm not very good top.</h2>
+        <p>I've been playing mid basically since I started playing League. I primarily use mages but I have been
+          practicing more with assasins. I have a limited champion pool for tanks, and those are primarily for jungle.
+        </p>
+      </div>
+      <div class="col-6 p-5">
+        <h2 class="text-center">Role Profeciency</h2>
+        <div class="row p-2">
+
+          <img src="top.png" alt="error loading image" class="col-2">
+          <div class="progress col-9">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10"
+              aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+          </div>
+          <img src="jungle.png" alt="error loading image" class="col-2">
+          <div class="progress col-9">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+          </div>
+          <img src="mid.png" alt="error loading image" class="col-2">
+          <div class="progress col-9">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+          </div>
+          <img src="bot.png" alt="error loading image" class="col-2">
+          <div class="progress col-9">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+          </div>
+          <img src="support.png" alt="error loading image" class="col-2">
+          <div class="progress col-9">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <img src="Silver-1.png" alt="eror loading image">
+      </div>
+      <div id="ranked" class="col-8 p-4">
+        <h2 class="text-teal">Highest ELO: Silver I</h2>
+        <h2 class="text-teal">I nearly hit Gold IV many times but my teams always troll during promotionals</h2>
+        <p class="text-teal">I've played a couple of seasons in a competitive league hosted by ESDL. My team was very
+          successful in
+          staying at the top of our division</p>
+        <button type="button" class="btn btn-primary">More</button>
+      </div>
+    </div>
+    <div class="row bg-primary d-flex  champ-space" id="top-3">
+      <div class="col-3">
+        <h4>
+          Lux
+        </h4>
+        <img src="m6.png" alt="error loading image">
+        <img src="lux.jpg" alt="error loading image" class="champ-size">
+      </div>
+      <div class="col-4">
+        <h4>
+          Lissandra
+        </h4>
+        <img src="m7.png" alt="error loading image">
+        <img src="lissandra.jpg" alt="error loading image" class="champ-size">
+      </div>
+      <div class="col-3">
+        <h4>
+          Akali
+        </h4>
+        <img src="m6.png" alt="error loading image">
+        <img src="akali.jpg" alt="error loading image" class="champ-size">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 p-3 text-teal">
+        <h3>Always looking for more people to play with</h3>
+        <p>Feel free to fill out the form above to get me your info or just add me in game...</p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="features" class="container-fluid text-center bg-primary pt-2">
+    <div class="row">
+      <div class="col-12">
+        <p>Page created by Kevin Lane (Epicweef)</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

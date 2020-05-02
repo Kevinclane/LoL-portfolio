@@ -1,0 +1,105 @@
+.r1-bg{
+  background-image: url("lissandra-background.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.text-black{
+  color: black;
+}
+
+.text-shadow{
+  text-shadow: 2px 2px 2px black;
+}
+
+.bg-cstm{
+  background-color: rgb(103, 158, 177);
+}
+
+
+
+.champ-size{
+  width: 100%;
+  height: 100%;
+}
+
+.champ-space{
+    align-items: center;
+    min-height: 80vh;
+    padding: 3%;
+    text-align: center;
+    justify-content: space-around
+}
+
+.text-teal{
+  color: teal;
+}
+
+.w100vw{
+  width: 100vw;
+}
+
+.sm-pd-l{
+  padding-left: 5vw;
+}
+
+.md-pd-l{
+  padding-left: 15vw;
+}
+
+.md-pd-t{
+  padding-top: 15vh;
+}
+
+.md-mxvh{
+  max-height: 10vh;
+}
+
+.mr-30{
+  margin-right: 30%;
+}
+
+.mr-59{
+  margin-right: 59%;
+}
+
+header{
+  z-index: 9999;
+}
+
+.nav-cstm{
+  min-width: 100vw;
+  top: 0;
+  margin-left: -2%; 
+  position: fixed;
+}
+
+.bbb{
+  border-bottom: solid black;
+}
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+  padding-left: 0;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
