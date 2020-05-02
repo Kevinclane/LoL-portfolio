@@ -1,3 +1,6 @@
+@media screen and (max-width: 768px) {
+  #toggleText { display: none; }
+}
 .r1-bg{
   background-image: url("lissandra-background.png");
   background-size: contain;
@@ -55,6 +58,10 @@
   max-height: 10vh;
 }
 
+.mxvw90{
+  max-width: 90vw;
+}
+
 .mr-30{
   margin-right: 30%;
 }
@@ -70,7 +77,6 @@ header{
 .nav-cstm{
   min-width: 100vw;
   top: 0;
-  margin-left: -2%; 
   position: fixed;
 }
 
@@ -87,6 +93,8 @@ header{
   background-color: #e9ecef;
   border-radius: .25rem;
   padding-left: 0;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .progress-bar {

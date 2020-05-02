@@ -7,39 +7,37 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="Darkly.css">
-  <link rel="stylesheet" href="stycle.css">
+  <link rel="stylesheet" href="style.css">
   <title>Kevin's League Profile</title>
 </head>
 
 <body>
 
-  <header class="container-fluid nav-cstm">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-cstm w100vw bbb">
-          <h3 class=" mt-1 text-black">LoL Portfolio</h3>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link text-black" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link text-black" href="#roles">Roles</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link text-black" href="#ranked">Ranked</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+
+  <header class="nav-cstm">
+    <nav class="navbar navbar-expand-lg navbar-light bg-cstm bbb px-5">
+      <h3 class=" mt-1 text-black">LoL Portfolio</h3>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-black" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-black" href="#roles">Roles</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-black" href="#ranked">Ranked</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
+
   </header>
 
   <main class="container-fluid mt-5">
     <div class="row r1-bg">
-      <div class="col-4 bg-dark m-5">
-        <form class="text-light">
+      <div class="col-md-4 col-10 bg-dark m-5">
+        <form class="text-light mxvw90">
           <div class="form-group">
             <label for="formName">Your Name</label>
             <input type="name" class="form-control" id="formName" placeholder="ie. John Smith" required>
@@ -93,20 +91,20 @@
           </div>
         </form>
       </div>
-      <div class="col-6 text-light text-shadow sm-pd-l md-pd-t text-shadow">
+      <div id="toggleText" class="col-md-6 col-xs-12 text-light text-shadow sm-pd-l md-pd-t text-shadow">
         <h2 class="mr-30">LEAGUE OF LEGENDS</h2>
         <p class="mr-59">Epicweef (aka Kevin Lane)</p>
       </div>
     </div>
     <div id="roles" class="row bg-primary">
-      <div class="col-6 p-5 text-center">
+      <div class="col-md-6 col-xs-12 order-xs-2 order-md-1 p-5 text-center">
         <h2>I'm a mid lane main</h2>
         <h2>I can play ADC, Support or Jungle as my off-role, but I'm not very good top.</h2>
         <p>I've been playing mid basically since I started playing League. I primarily use mages but I have been
           practicing more with assasins. I have a limited champion pool for tanks, and those are primarily for jungle.
         </p>
       </div>
-      <div class="col-6 p-5">
+      <div class="col-6 p-5 order-xs-1 order-md-2">
         <h2 class="text-center">Role Profeciency</h2>
         <div class="row p-2">
 
@@ -141,10 +139,10 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-4">
+      <div class="col-xs-12 col-md-4">
         <img src="Silver-1.png" alt="eror loading image">
       </div>
-      <div id="ranked" class="col-8 p-4">
+      <div id="ranked" class="col-xs-12 col-md-8 p-4">
         <h2 class="text-teal">Highest ELO: Silver I</h2>
         <h2 class="text-teal">I nearly hit Gold IV many times but my teams always troll during promotionals</h2>
         <p class="text-teal">I've played a couple of seasons in a competitive league hosted by ESDL. My team was very
@@ -153,22 +151,22 @@
         <button type="button" class="btn btn-primary">More</button>
       </div>
     </div>
-    <div class="row bg-primary d-flex  champ-space" id="top-3">
-      <div class="col-3">
+    <div class="row bg-primary d-flex champ-space" id="top-3">
+      <div class="col-xs-12 order-xs-2 col-md-3 order-md-1">
         <h4>
           Lux
         </h4>
         <img src="m6.png" alt="error loading image">
         <img src="lux.jpg" alt="error loading image" class="champ-size">
       </div>
-      <div class="col-4">
+      <div class="col-xs-12 order-xs-1 col-md-3 order-md-2">
         <h4>
           Lissandra
         </h4>
         <img src="m7.png" alt="error loading image">
         <img src="lissandra.jpg" alt="error loading image" class="champ-size">
       </div>
-      <div class="col-3">
+      <div class="col-xs-12 order-xs-3 col-md-3 order-md-3">
         <h4>
           Akali
         </h4>
