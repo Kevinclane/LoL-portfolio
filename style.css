@@ -1,9 +1,30 @@
 @media screen and (max-width: 768px) {
   #toggleText { display: none; }
 }
+
+@media screen and (max-width: 768px){
+    #mIcon {max-width: 20vw !important; margin: auto; margin-top: -2rem !important;}
+}
+
+@media screen and (max-width: 768px){
+  #champImg {max-width: 40vw !important; margin: auto;}
+}
+
+@media screen and (max-width: 768px){
+  #champCard {display: flex !important; flex-direction: column !important; margin-top: 4rem;}
+}
+
+@media screen and (max-width: 768px){
+  #roleCard {display: flex !important; flex-direction: column !important; margin: auto;}
+}
+
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+
 .r1-bg{
   background-image: url("lissandra-background.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -15,9 +36,26 @@
   text-shadow: 2px 2px 2px black;
 }
 
+.text-shadow-secondary{
+  text-shadow: 2px 2px 2px #444;
+}
+
+.text-shadow-primary{
+  text-shadow: 2px 2px 2px #375a7f;
+}
+
+.img-shadow{
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.box-shadow{
+  box-shadow: 2px 2px 2px black;
+}
+
 .bg-cstm{
   background-color: rgb(103, 158, 177);
 }
+
 
 
 
@@ -27,15 +65,20 @@
 }
 
 .champ-space{
+    display: flex;
     align-items: center;
-    min-height: 80vh;
     padding: 3%;
     text-align: center;
     justify-content: space-around
+
 }
 
 .text-teal{
   color: teal;
+}
+
+.mxvw100{
+  max-width: 8%;
 }
 
 .w100vw{
@@ -44,6 +87,10 @@
 
 .sm-pd-l{
   padding-left: 5vw;
+}
+
+.mt-10{
+  margin-top: 6rem !important;
 }
 
 .md-pd-l{
