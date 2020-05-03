@@ -18,6 +18,15 @@
   #roleCard {display: flex !important; flex-direction: column !important; margin: auto;}
 }
 
+@media screen and (min-width: 769px){
+  #roleCard1 {position: absolute !important;}
+  /* #roleCard {position: relative;} */
+}
+
+@media screen and (max-width: 768px){
+  #rankedIcon {max-height: 100% !important;}
+}
+
 body{
   font-family: 'Libre Baskerville', serif;
 }
@@ -98,7 +107,11 @@ body{
 }
 
 .md-pd-t{
-  padding-top: 15vh;
+  padding-top: 15vh !important;
+}
+
+.lg-mx-80per{
+  max-height: 80%;
 }
 
 .md-mxvh{
