@@ -31,6 +31,10 @@
   #ranked {padding-top: 15vh !important;}
 }
 
+@media screen and (min-width: 1600px){
+  #roleCard1 {margin-left: 55%;}
+}
+
 body{
   font-family: 'Libre Baskerville', serif;
 }
